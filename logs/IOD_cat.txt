@@ -1,0 +1,24 @@
+模型: yolo11m.pt
+输入: dataset/cat (2 images)
+输出: output/OD
+置信度阈值: 0.3 | 设备: 0
+============================================================
+[1/2] 处理: VCG211.png
+[2/2] 处理: cat4003.jpg
+============================================================
+Down!
+检测图片: output/OD
+标注文件: output/OD/labels
+
+
+model: yolo11m.pt
+input: dataset/cat (num:2)
+output: output/OD
+confidence threshold: 0.3 | decice: 0
+============================================================
+[1/2] processing: VCG211.png
+[2/2] processing: cat4003.jpg
+============================================================
+Down!
+images saved to: output/OD
+labels saved to: output/OD/labels
